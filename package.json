@@ -1,0 +1,18 @@
+{
+  "name": "my-node-app",
+  "version": "1.0.0",
+  "description": "Node.js app with login using SQLite and bcrypt",
+  "main": "app.js",
+  "scripts": {
+    "init-db": "node init-db.js",
+    "start": "node app.js"    
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.2",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "sqlite3": "^5.1.6"
+  }
+}
