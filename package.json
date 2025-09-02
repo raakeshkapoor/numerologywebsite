@@ -3,14 +3,15 @@
   "version": "1.0.0",
   "description": "Node.js app with login using SQLite and bcrypt",
   "main": "app.js",
-"scripts": {
-  "setup": "npm install",
-  "init-db": "node init-db.js",
-  "start": "node app.js"
-},
+  "scripts": {
+    "setup": "npm install",
+    "init-db": "node init-db.js",
+    "start": "node app.js"
+  },
   "dependencies": {
     "bcrypt": "^5.1.0",
     "body-parser": "^1.20.2",
+    "dotenv": "^16.4.5",
     "ejs": "^3.1.9",
     "express": "^4.18.2",
     "express-session": "^1.17.3",
